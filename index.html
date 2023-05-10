@@ -10,43 +10,38 @@
 			margin: 0;
 			padding: 0;
 		}
-
 		header {
 			background-color: #333;
 			color: #fff;
 			padding: 20px;
-			text-align: center;
 		}
-
 		h1 {
 			margin: 0;
 		}
-
 		nav {
 			background-color: #333;
 			color: #fff;
 			display: flex;
-			justify-content: space-between;
+			justify-content: center;
 			padding: 10px;
 			align-items: center;
 		}
-
 		nav ul {
 			list-style: none;
 			margin: 0;
 			padding: 0;
 			display: flex;
 		}
+
 		details{
 		    font-size:14px;
 		}
 		span{
-		    font-size:10px;
+		    font-size:11px;
 		}
 		nav li {
 			margin: 0 10px;
 		}
-
 		nav a {
 			color: #fff;
 			text-decoration: none;
@@ -55,12 +50,10 @@
 			border-radius: 5px;
 			transition: background-color 0.3s ease;
 		}
-
 		nav a:hover {
 			background-color: #fff;
 			color: #333;
 		}
-
 		.container {
 			margin: 20px auto;
 			max-width: 1200px;
@@ -69,7 +62,6 @@
 			flex-wrap: wrap;
 			justify-content: center;
 		}
-
 		.card {
 			background-color: #fff;
 			box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
@@ -78,20 +70,16 @@
 			padding: 20px;
 			text-align: center;
 		}
-
 		.card img {
 			max-width: 100%;
 			margin-bottom: 10px;
 		}
-
 		.card h2 {
 			margin-top: 0;
 		}
-
 		.card p {
 			margin-bottom: 0;
 		}
-
 		footer {
 			background-color: #333;
 			color: #fff;
@@ -102,46 +90,44 @@
 </head>
 <body>
 	<header>
-		<h1>My Portfolio</h1>
+		<h1>Компьютер таңдау</h1>
 	</header>
 	<nav>
 		<ul>
 			<li><a href="index.html">Home</a></li>
 			<li><a href="#">About</a></li>
-			<li><a href="#">Portfolio</a></li>
 			<li><a href="#">Contact</a></li>
 		</ul>
-		<form>
-			<input type="text" placeholder="Search...">
-			<button type="submit">Go</button>
-		</form>
 	</nav>
 	<div class="container">
 		<div class="card">
-			<img src="https://via.placeholder.com/300x200" alt="Project Image">
+			<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlidFByPRlDUkWhDOzB_kT9EWotyij9RaJvg&usqp=CAU" width="300" height="200" alt="Project Image">
 			<h2>Snake_game</h2>
 			<p>Бұл жылан ойын. Менің ең алғаш жасаған ойыным.
 			<details>
+			<summary> Қосымша.</summary>Ойын python тілінде pygame framework тан жасалған.Бұл ойынды орнату үшін үш файлбы бір жерге орнату керек,сол кезде істейді. Ойынның шарты 3 кезеңнен тұрады.1-кезең ешқандай шегара шекьеу жоқ 10 ұпай жинасаң кейінгі кезеңге өтесің.2-кезеңде шегера бар шегараға тисең өлесің ,ал 10 ұпай жинасаң кейінні кезеңге өтесің, 3-кезеңде қызыл шегераға тисең өлесің 10 ұпай жинасаң ойын аяқталады.</details></p>
 			<summary> Қосымша.</summary><span>Ойын python тілінде pygame framework тан жасалған.Бұл ойынды орнату үшін үш файлбы бір жерге орнату керек,сол кезде істейді. Ойынның шарты 3 кезеңнен тұрады.1-кезең ешқандай шегара шекьеу жоқ 10 ұпай жинасаң кейінгі кезеңге өтесің.2-кезеңде шегера бар шегараға тисең өлесің ,ал 10 ұпай жинасаң кейінні кезеңге өтесің, 3-кезеңде қызыл шегераға тисең өлесің 10 ұпай жинасаң ойын аяқталады.</span></details></p>
-			<a href="#">View Project</a>
+			<a href="https://github.com/Kopylen/snake_game">View Project</a>
 		</div>
 		<div class="card">
-			<img src="https://via.placeholder.com/300x200" alt="Project Image">
+			<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUTmsFf103UlXv1wm-GhAr2ms7IQd7mLwK8A&usqp=CAU" width="300" height="200" alt="Project Image">
 			<h2>T_K_K game</h2>
 			<p>Тас қағаз қайшы ойыны.
 			<details>
 			<summary> Қосымша.</summary>
+			Ойын python тілінде tkinter framework-тан жасалған.Бұл ойынды орнату үшін суреттермен файл бірге жүру керек. Ойынның шарты бірінші қанша рет ойнайтырыңды енгізесің сосын тас қағаз қайшы бірін таңдайсың және жоүарыда сенің таңдағаның боттың таңдағаны және жеңімпазды көрсетеді,төменде ұпайлар саны.Paper-қағаз,Scissors-қайшы,rock-тас дегені.</details></p>
 			<span>Ойын python тілінде tkinter framework-тан жасалған.Бұл ойынды орнату үшін суреттермен файл бірге жүру керек. Ойынның шарты бірінші қанша рет ойнайтырыңды енгізесің сосын тас қағаз қайшы бірін таңдайсың және жоүарыда сенің таңдағаның боттың таңдағаны және жеңімпазды көрсетеді,төменде ұпайлар саны.Paper-қағаз,Scissors-қайшы,rock-тас дегені.</span></details></p>
-			<a href="#">View Project</a>
+			<a href="https://github.com/Kopylen/t_k_k_game">View Project</a>
 		</div>
 		<div class="card">
-		<img src="https://via.placeholder.com/300x200" alt="Project Image">
+		<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiI_dHfbNIZ9KnEWbfjDtL9rxHu6M7SL283Q&usqp=CAU" width="300" height="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT97NH0eAdcJotaABAO38BGIgQagvR7-KH0Eg&usqp=CAU" alt="Project Image">
 		<h2>Sait</h2>
 		<p>Компьютер таңдау сайтты.
 		<details>
 		<summary>Қосымша.</summary>
+		Бұл қалай компьютер таңдаймыз? деген сайт. Бұл сайтта арзан және сапалы компьютерді таңдауды көрсетеді және ұсынады.</details></p>
 		<span>Бұл қалай компьютер таңдаймыз? деген сайт. Бұл сайтта арзан және сапалы компьютерді таңдауды көрсетеді және ұсынады.</span></details></p>
-		<a href="https://kopylen.github.io/computer/">View Project</a>
+		<a href="https://kopylen.github.io/computers/">View Project</a>
 		</div>
 		<!-- Add more project cards here as needed -->
 	</div>
