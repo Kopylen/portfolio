@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="kz">
+    <head>
+        <style>
+    		body {
+    			font-family: Arial, sans-serif;
+    			background-color: #f4f4f4;
+    			margin: 0;
+    			padding: 0;
+    		}
+    		header {
+    			background-color: #333;
+    			color: #fff;
+    			padding: 20px;
+    		}
+    		h1 {
+    			margin: 0;
+    		}
+    		nav {
+    			background-color: #333;
+    			color: #fff;
+    			display: flex;
+    			justify-content: center;
+    			padding: 10px;
+    			align-items: center;
+    		}
+    		nav ul {
+    			list-style: none;
+    			margin: 0;
+    			padding: 0;
+    			display: flex;
+    		}
+
+    		details{
+    		    font-size:14px;
+    		}
+    		span{
+    		    font-size:11px;
+    		}
+    		nav li {
+    			margin: 0 10px;
+    		}
+    		nav a {
+    			color: #fff;
+    			text-decoration: none;
+    			font-weight: bold;
+    			padding: 5px;
+    			border-radius: 5px;
+    			transition: background-color 0.3s ease;
+    		}
+    		nav a:hover {
+    			background-color: #fff;
+    			color: #333;
+    		}
+    		.container {
+    			margin: 20px auto;
+    			max-width: 1200px;
+    			padding: 20px;
+    			display: flex;
+    			flex-wrap: wrap;
+    			justify-content: center;
+    		}
+    		.card {
+    			background-color: #fff;
+    			box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
+    			margin: 20px;
+    			max-width: 300px;
+    			padding: 20px;
+    			text-align: center;
+    		}
+    		.card img {
+    			max-width: 100%;
+    			margin-bottom: 10px;
+    		}
+    		.card h2 {
+    			margin-top: 0;
+    		}
+    		.card p {
+    			margin-bottom: 0;
+    		}
+    		footer {
+    			background-color: #333;
+    			color: #fff;
+    			padding: 10px;
+    			text-align: center;
+    		}
+    	</style>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <header>
+    		<h1>My Portfolio</h1>
+    	</header>
+    	<div class="menu">
+    		<div id="pp">
+    			<body>
+    				<nav>
+    					<ul>
+    					<li><a href="index.html">Home</a></li>
+    					<li><a href="#">About</a></li>
+    						<li><a href="bs.html">Contact</a></li>
+    					</ul>
+    				</nav>
+    				<script>
+    	  document.querySelector('.menu-icon').addEventListener('click', function() {
+    	   document.querySelector('.menu').classList.toggle('open');
+    	  });
+    	 			</script>
+    			</body>
+    		</div>
+    	</div>
+    	<div id="po">
+    			<h1>Бізбен байланыс: </h1>
+    			<div class="content">
+          		<div class="btnn">
+              		<a href="http://github.com/Kopylen" target="_blank" id="gh">Github</a>
+              		<a href="https://t.me/Kudaiberdi_py" target="_blank" id="tg">Telegram</a>
+             			<a href="https://www.instagram.com/kudaiberdizainiev/" target="_blank" id="inst">Instagram</a>
+          		</div>
+      		</div>
+    		</body>
+    		<body>
+    			<hr />
+    			<p> © Author by Kudaiberdi </p>
+    		</body>
+    	</div>
+    </body>
+</html>
